@@ -5,9 +5,7 @@ const App = () => {
   const [state, setSate] = useState<string | undefined>(undefined);
 
   useEffect(() => {
-    const d = fetch(
-      " https://3rd-party-script-git-main-ojisan.vercel.app/api/get?id=2"
-    )
+    fetch(" https://3rd-party-script-git-main-ojisan.vercel.app/api/get?id=2")
       .then((res) => {
         return res.json();
       })
@@ -16,7 +14,7 @@ const App = () => {
         setSate(data.id);
       });
   }, []);
-  return <div>hello {state}!</div>;
+  return <div>hello id: {state}!</div>;
 };
 
-render(<App></App>, document.body);
+render(<App></App>, document.getElementById("root") as any);
