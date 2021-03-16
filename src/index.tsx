@@ -16,6 +16,13 @@ const App = () => {
         setSate(data.id);
       });
   }, []);
+
+  useEffect(() => {
+    const script = document.getElementById("self");
+    console.log(script);
+    // @ts-ignore
+    console.log(script.src);
+  }, []);
   return <div>hello id: {state}!!!</div>;
 };
 
