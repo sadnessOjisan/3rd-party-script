@@ -1,0 +1,23 @@
+{
+  "name": "3rd-party-script",
+  "version": "1.0.0",
+  "description": "party party party",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadnessOjisan/3rd-party-script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadnessOjisan/3rd-party-script/issues"
+  },
+  "homepage": "https://github.com/sadnessOjisan/3rd-party-script#readme",
+  "devDependencies": {
+    "@vercel/node": "^1.9.1",
+    "typescript": "^4.2.3"
+  }
+}
