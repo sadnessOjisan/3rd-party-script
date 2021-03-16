@@ -31,7 +31,7 @@ module.exports = {
       "react-dom": "preact/compat",
     },
   },
-  plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })],
+  // plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })],
   devServer: {
     historyApiFallback: true,
     hot: true,

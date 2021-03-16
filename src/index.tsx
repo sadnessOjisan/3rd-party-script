@@ -16,7 +16,7 @@ const App = () => {
         setSate(data.id);
       });
   }, []);
-  return <div>hello id: {state}!</div>;
+  return <div>hello id: {state}!!!</div>;
 };
 
 render(<App></App>, document.getElementById("root") as any);
